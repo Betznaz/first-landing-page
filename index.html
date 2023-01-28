@@ -9,22 +9,31 @@
 </head>
 <body>
     <header>
-        <img src="./images/logo.png" alt="logo" style="width:50px;height:50px">
-        <ul>
-            <li>Header Link 1</li>
-            <li>Header Link 2</li>
-            <li>Header Link 3</li>
-        </ul>
+        <div class="logo-thumbnail">
+            <img src="./images/logo.png" alt="logo">
+        </div>
+        <div class="header-nav">
+            <ul>
+                <li><a href="#">Header Link 1</a></li>
+                <li><a href="#">Header Link 2</a></li>
+                <li><a href="#">Header Link 3</a></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <section>
-            <div>
-                Why this website is awesome, and what it's all about.
+        <section class="banner">
+            <div class="about">
+                <h3>Welcome to our site!</h2>
+                <p>
+                    Why this website is awesome, and what it's all about.
+                </p>
+                <button type="button">Learn More</button>
             </div>
-            <div>
-                <img src="./images/cute-puppy.jpg" alt="A cute puppy" style="width:150px;height:100px">
+            <div class="hero-img">
+                <img src="./images/cute-puppy.jpg" alt="A cute puppy">
             </div>
         </section>
+
         <section class="card-container">
             <h3>Heading here</h3>
             <div class="card">
@@ -40,9 +49,11 @@
                 Card 4
             </div>
         </section>
+
         <blockquote>
             Inspiring quote here.
         </blockquote>
+
         <section>
             CTA here.
         </section>

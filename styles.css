@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    flex: 1 0 auto;
+    border: solid 1px black;
+    height: 60px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logothumbnail {
+    flex: 1;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header-nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+header ul {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    flex: 10;
+}
+
+.banner {
+    border: solid 1px black;
+    display: flex;
+}
+
+.about, .hero-img {
+    border: solid 1px black;
+    flex: 1;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 10px 20px 50px;
+}
+
+.about h3 {
+    font-size: 24px;
+    margin: -5px 0px;
+}
+
+.about button {
+    flex-shrink: 0;
+    width: 100px;
+    padding: 5px 10px;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 50px 20px 10px;
+}
+
+.hero-img img {
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+}
