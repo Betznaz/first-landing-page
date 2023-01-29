@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Furry Friends</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,43 +14,45 @@
         </div>
         <div class="header-nav">
             <ul>
-                <li><a href="#">Header Link 1</a></li>
-                <li><a href="#">Header Link 2</a></li>
-                <li><a href="#">Header Link 3</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Programs</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
     </header>
     <main>
-        <section class="banner">
-            <div class="about">
-                <h3>Welcome to our site!</h2>
-                <p>
-                    Why this website is awesome, and what it's all about.
-                </p>
-                <button type="button">Learn More</button>
-            </div>
-            <div class="hero-img">
-                <img src="./images/cute-puppy.jpg" alt="A cute puppy">
-            </div>
-        </section>
+        <div class="banner-wrapper">
+            <section class="banner">
+                <div class="about">
+                    <h3>Welcome to Furry Friends!</h2>
+                    <p>
+                        A non-profit organization dedicated to matching amazing dogs with loving humans.
+                    </p>
+                    <button type="button"><a href="#">Learn More</a></button>
+                </div>
+                <div class="hero-img">
+                    <img src="./images/cute-puppy.jpg" alt="A cute puppy">
+                </div>
+            </section>
+        </div>
 
         <section class="cardsection-container">
-            <h3 id="cards-heading">Meet some of our furry heroes</h3>
+            <h3 id="cards-heading">Meet some of our newest little heroes</h3>
             <div class="card-container">
                 <div class="card">
-                    <img src="./images/dog1.jpg" alt="A cute puppy">
+                    <a href="#"><img src="./images/dog1.jpg" alt="A cute puppy"></a>
                     Spot
                 </div>
                 <div class="card">
-                    <img src="./images/dog2.jpeg" alt="A cute puppy">
+                    <a href="#"><img src="./images/dog2.jpeg" alt="A cute puppy"></a>
                     Patches
                 </div>
                 <div class="card">
-                    <img src="./images/dog3.jpeg" alt="A cute puppy">
+                    <a href="#"><img src="./images/dog3.jpeg" alt="A cute puppy"></a>
                     Sifu
                 </div>
                 <div class="card">
-                    <img src="./images/dog4.jpeg" alt="A cute puppy">
+                    <a href="#"><img src="./images/dog4.jpeg" alt="A cute puppy"></a>
                     Sparky
                 </div>
             </div>
@@ -70,13 +72,13 @@
 
         <section class="cta-container">
             <div class="cta-textbox">
-                <h4>Call to action!</h4>
+                <h4>Sign up for the "Furry Friday" newsletter!</h4>
                 <p>
-                    Time to do some things!
+                    Heartwarming articles featuring success stories from one of our furry superstars!
                 </p>
             </div>
             <div class="cta-buttonbox">
-                <button type="button">Subscribe</button>
+                <button type="button"><a href="#">Subscribe</a></button>
             </div>
         </section>
     </main>
